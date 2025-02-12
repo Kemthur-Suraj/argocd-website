@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: website-content
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>My Live Website</title>
+    </head>
+    <body>
+        <h1>Welcome to My Website!</h1>
+        <p>This website is deployed using Argo CD in MicroK8s.</p>
+    </body>
+    </html>

@@ -7,10 +7,12 @@ data:
     <!DOCTYPE html>
     <html>
     <head>
-        <title>My Live Website</title>
+        <title>Sample Website</title>
     </head>
     <body>
-        <h1>Welcome to My Website!</h1>
-        <p>This website is deployed using Argo CD in MicroK8s.</p>
+        <h1>Welcome to the Website!</h1>
+        <p>This website is deployed using Argo CD in MicroK8s</p>
+        <br>
+        <p> Testing Automatic Sync; changes to be reflected </p>
     </body>
     </html>
